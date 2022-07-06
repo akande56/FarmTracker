@@ -2,7 +2,7 @@ import os
 
 from .base import *
 
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = fkEqzDxVkofFVSGrpixI0FaVf5xpqebcOLWIj/vKkTf43y/cQ2nqXPOY80uYuh+B3i5n7/YvzbS5voRG65vbFw==
 DEBUG = False
 ALLOWED_HOSTS = [os.environ.get("PRODUCTION_HOST")]
 
