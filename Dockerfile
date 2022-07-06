@@ -38,8 +38,7 @@ WORKDIR /app
 
 # SECRET_KEY is only included here to avoid raising an error when generating static files
 RUN DJANGO_SETTINGS_MODULE=backend.settings.production \
-  SECRET_KEY=fkEqzDxVkofFVSGrpixI0FaVf5xpqebcOLWIj/vKkTf43y/cQ2nqXPOY80uYuh+B
-3i5n7/YvzbS5voRG65vbFw== \
+  SECRET_KEY=fkEqzDxVkofFVSGrpixI0FaVf5xpqebcOLWIj/vKkTf43y/cQ2nqXPOY80uYuh+B3i5n7/YvzbS5voRG65vbFw== \
   python backend/manage.py collectstatic --noinput
 
 EXPOSE $PORT
