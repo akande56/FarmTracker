@@ -1,6 +1,7 @@
 version: "3.7"
 services:
   django:
+    restart: always
     build: ./backend
     volumes:
       - ./backend:/app/backend

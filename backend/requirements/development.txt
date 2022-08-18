@@ -13,3 +13,6 @@ factory_boy==3.2.1
 freezegun==1.2.1
 
 Sphinx==5.0.2
+djangorestframework==3.13.1
+django-allauth==0.43.0
+django-rest-auth==0.9.5

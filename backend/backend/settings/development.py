@@ -6,7 +6,7 @@ SECRET_KEY = 'cx8&=ho5h7_(0i_g&(j%@^0)3)(*lw7xq^2a2&v=4sder2gwaj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django"]
+ALLOWED_HOSTS = ["django","0.0.0.0:8000" ,"0.0.0.0","localhost:8000", "127.0.0.1:8000"]
 
 INSTALLED_APPS += [
     'django_extensions',
